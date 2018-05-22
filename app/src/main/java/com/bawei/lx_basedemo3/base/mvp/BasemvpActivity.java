@@ -28,9 +28,10 @@ public abstract class BasemvpActivity<P extends BasePresenter> extends BaseActiv
 
     }
 
-    protected MVPComponent getComponent(){
+    protected MVPComponent getComponent() {
 
-    return DaggerMVPComponent.builder().build();
+        return DaggerMVPComponent.builder().build();
     }
+
     protected abstract void getInjet();
 }

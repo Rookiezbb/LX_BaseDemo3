@@ -29,7 +29,17 @@ public class MainActivity extends BasemvpActivity<TestPresenter> implements ITes
     }
 
     @Override
+    public void dealLogicBeforeInitView() {
+
+    }
+
+    @Override
     protected void initview() {
+
+    }
+
+    @Override
+    public void dealLogicAfterInitView() {
 
     }
 

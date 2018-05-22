@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Topbar-->
+    <declare-styleable name="TopBar">
+        <attr name="topbarTile" format="string" />
+        <attr name="topbarLeftText" format="string" />
+        <attr name="topbarRightText" format="string" />
+        <attr name="topbarLeftImage" format="reference" />
+        <attr name="topbarRightImage" format="reference" />
+        <attr name="topbarLeftTextColor" format="color" />
+        <attr name="topbarRightTextColor" format="color" />
+        <attr name="topbarTitleTextColor" format="color" />
+        <attr name="topbarBackground" format="reference|color" />
+        <attr name="topbarIsShowLeft" format="boolean" />
+        <attr name="topbarIsShowRight" format="boolean" />
+        <attr name="topbarIsShowLine" format="boolean" />
+    </declare-styleable>
+</resources>

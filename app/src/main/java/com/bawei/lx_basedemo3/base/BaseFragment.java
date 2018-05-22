@@ -5,4 +5,5 @@ package com.bawei.lx_basedemo3.base;
  */
 
 public class BaseFragment {
+
 }
